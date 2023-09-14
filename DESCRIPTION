@@ -30,7 +30,8 @@ Suggests: ShortRead, rtracklayer, BSgenome, GenomicFeatures,
 	TxDb.Hsapiens.UCSC.hg19.knownGene, TxDb.Dmelanogaster.UCSC.dm3.ensGene,
 	BSgenome.Dmelanogaster.UCSC.dm3, BSgenome.Hsapiens.UCSC.hg19,
 	DESeq2, edgeR,
-	RUnit, BiocStyle
+	RUnit, BiocStyle, knitr
+VignetteBuilder: knitr
 Collate: utils.R
 	cigar-utils.R
 	GAlignments-class.R
